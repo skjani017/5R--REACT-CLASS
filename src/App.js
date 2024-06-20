@@ -1,15 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import ButtonComponent from "./component/button/button.js";
+import {
+  Heading1,
+  Heading2,
+  Heading3,
+  Heading4,
+  Heading5,
+  Heading6,
+} from "./component/heading/headings.js";
+import { ImageComponent } from "./component/image/imageComponent.js";
 
-function App() {
+import { ListParentOrdered,ListParentUnordered } from "./component/list/listParent.js";
+
+import {Card} from "./component/card/card.js"
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello World</h1>
-      </header>
+    <div class="app">
+      <Card></Card>
+      <Card></Card>
+      
+      
     </div>
   );
-}
+};
 
 export default App;
