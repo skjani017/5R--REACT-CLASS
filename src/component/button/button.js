@@ -1,7 +1,11 @@
 
 
 const ButtonComponent = () => {
-    return <button>Click me</button>;
+    return (
+        <button onClick = {() => {}} className="">
+            Click me
+            </button>
+    );
 };
 
 export default ButtonComponent;
