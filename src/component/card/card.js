@@ -11,6 +11,10 @@ export const Card = () => {
         <ImageComponent/>
         <ListParentOrdered/>
         <ButtonComponent/>
+
+
+
+        
     </div>
     );
 };
