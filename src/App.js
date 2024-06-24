@@ -27,8 +27,18 @@ const App = () => {
   // }
   return (
     <div>
-      <CustomProgressBar/>
-     <FirstComponent/>
+     <ImageComponent src="https://wallpapers.com/images/high/vijay-devarakonda-red-suit-1ptc8fcbqr1r31fj.webp" 
+      width="100"
+       height="100"
+       alt="DQ"
+       /> 
+
+<ImageComponent src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202302/dq_0-three_four.jpg?VersionId=kHxjnQkOaE0QJuRZqvZj0yr4rDK.Cb2D" 
+      width="100"
+       height="100"
+       alt="DQ"
+       /> 
+
     </div>
   );
 };
