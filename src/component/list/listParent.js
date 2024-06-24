@@ -44,9 +44,19 @@ export const ListParentOrdered = () => {
       const newTeams = iplTeams.filter((eachTeam) => eachTeam.won >= 5);
       return newTeams;
     }
+
+    function countMatch(iplTeams){
+      const newIplTeamsCount=iplTeams.reduce((acc,eachTeam) => {
+        return acc + eachTeam.won
+      },0);
+      return newIplTeamsCount;
+    }
+
+    
   
     return (
       <div>
+        <h3>Total count of matches {countMatch(iplTeams)}</h3>
         {filterData(iplTeams).map((eachTeam) => {
           return (
             <div>
