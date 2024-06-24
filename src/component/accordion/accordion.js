@@ -24,4 +24,6 @@ function CustomAccordion() {
   );
 }
 
+
+
 export default CustomAccordion;

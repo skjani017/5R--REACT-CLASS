@@ -29,10 +29,9 @@ const App = () => {
     <div>
       <CustomProgressBar/>
      <FirstComponent/>
-    
-
     </div>
   );
 };
 
-export default App;
+
+export default App ;

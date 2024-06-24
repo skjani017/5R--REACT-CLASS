@@ -6,4 +6,5 @@ function CustomSpinner() {
   return <Spinner animation="grow" />;
 }
 
-export default CustomSpinner ;
+
+export default CustomSpinner;
